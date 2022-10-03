@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+.chatclass {
+  display: grid;
+  min-height: 100%;
+  display: grid;
+  background: linear-gradient(to bottom left, #79c7c5 40%, #f9fbff 100%);
+  font-family: "Lato", sans-serif;
+}
+
+.chatclcontainer {
+  position: relative;
+  margin: 12% auto;
+  width: 620px;
+  height: 450px;
+}
+.chatclmessages {
+  position: absolute;
+  background: #f9fbff;
+  opacity: 0.5;
+  width: 40%;
+  height: 72%;
+  top: 2.5%;
+  left: -5%;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -5px 5px 10px rgba(119, 119, 119, 0.5);
+}
+/*chat messages */
+.chatclpeople {
+  position: absolute;
+  list-style-type: none;
+  width: 30.2%;
+  left: -10px;
+  top: 24.7%;
+  line-height: 0.7em;
+}
+.chatclpeople .chatcltitle {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-left: 14px;
+  letter-spacing: 1px;
+  color: rgb(3, 3, 3);
+}
+.chatclpeople .chatcltime {
+  font-size: 0.3em;
+  color: #777;
+  position: absolute;
+  right: 10px;
+  margin-top: 2px;
+}
+.chatclpeople .chatclpreview {
+  color: #79c7c5;
+  margin-left: 14px;
+  font-size: 0.5em;
+}
+.chatclperson {
+  padding: 12px 0 12px 12px;
+  border-bottom: 1px solid #79c7c5;
+  cursor: pointer;
+}
+.chatclperson:hover {
+  background: #f9fbff;
+  transition: all 0.3s ease-in-out;
+}
+.chatclfocus {
+  background: #f9fbff;
+  margin-left: 1px;
+}
+.chatclprofile {
+  position: absolute;
+  left: 16%;
+  top: 7%;
+}
+.chatclname2 {
+  position: absolute;
+  top: 50px;
+  left: 2px;
+  text-transform: uppercase;
+  color: #012f2e;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.chatclemail {
+  color: #f9fbff;
+  font-size: 0.5em;
+  margin-left: -30px;
+  margin-top: 2px;
+}
+.chatclchatbox {
+  position: absolute;
+  left: 35%;
+  height: 75%;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(119, 119, 119, 0.5);
+}
+.chatclop-bar {
+  width: 100%;
+  height: 60px;
+  background: #f9fbff;
+  border-radius: 10px 10px 0 0;
+}
+.chatclavatar {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(to bottom left, #79c7c5 20%, #a1e2d9 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: 11px;
+  left: 15px;
+}
+.chatclavatar p {
+  color: #f9fbff;
+  margin: 7px 12px;
+}
+.chatclname {
+  position: absolute;
+  top: 22px;
+  text-transform: uppercase;
+  color: #777;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  font-weight: 500;
+  left: 60px;
+}
+.chatclmenu {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 10px;
+  height: 20px;
+  cursor: pointer;
+}
+.chatclmenu:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}
+.chatclicons {
+  position: absolute;
+  color: #a1e2d9;
+  padding: 10px;
+  top: 5px;
+  right: 21px;
+  cursor: pointer;
+}
+.chatclicons .fas {
+  padding: 5px;
+  opacity: 0.8;
+}
+.chatclicons .fas:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}
+.chatcldots {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #79c7c5;
+  box-shadow: 0px 7px 0px #79c7c5, 0px 14px 0px #79c7c5;
+}
+.chatclmiddle {
+  position: absolute;
+  background: #f9fbff;
+  width: 100%;
+  opacity: 0.85;
+  top: 60px;
+  height: 80%;
+}
+.chatclincoming {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+.chatclincoming .bubble {
+  background: #b2b2b2;
+}
+.chatcltyping {
+  position: absolute;
+  top: 67%;
+  left: 20px;
+}
+.chatcltyping .bubble {
+  background: #eaeaea;
+  padding: 8px 13px 9px 13px;
+}
+.chatclellipsis {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background: #b7b7b7;
+  border-radius: 50%;
+  animation: bounce 1.3s linear infinite;
+}
+.chatclone {
+  animation-delay: 0.6s;
+}
+.chatcltwo {
+  animation-delay: 0.5s;
+}
+.chatclthree {
+  animation-delay: 0.8s;
+}
+.chatclbubble {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #f9fbff;
+  font-size: 0.7em;
+  padding: 10px 10px 10px 12px;
+  border-radius: 20px;
+}
+.chatcllower {
+  margin-top: 45px;
+}
+.chatcloutgoing {
+  position: absolute;
+  padding: 20px;
+  right: 0;
+  top: 15%;
+  width: 50%;
+  height: 100%;
+}
+.chatcloutgoing .chatclbubble {
+  background: #79c7c5;
+  float: right;
+}
+.chatclbottom-bar {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  bottom: 0;
+  background: #f9fbff;
+  border-radius: 0 0 10px 10px;
+}
+.chatclleft {
+  left: 0px;
+}
+.chatclinput {
+  padding: 7px;
+  width: 74%;
+  left: 5%;
+  position: absolute;
+  border: 0;
+  top: 13px;
+  background: #f9fbff;
+  color: #79c7c5;
+}
+.chatcl.input::placeholder {
+  color: #a1e2d9;
+}
+.chatclinput:focus {
+  color: #777;
+  outline: 0;
+}
+.chatclbutton {
+  position: absolute;
+  border: 0;
+
+  font-size: 1em;
+  color: #a1e2d9;
+  top: 10px;
+  opacity: 0.8;
+  right: 17px;
+  cursor: pointer;
+  outline: 0;
+}
+.chatclbutton:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  color: #79c7c5;
+}
+
+@keyframes bounce {
+  30% {
+    transform: translateY(-2px);
+  }
+  60% {
+    transform: translateY(0px);
+  }
+  80% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0.5;
+  }
+}
