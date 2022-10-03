@@ -9,7 +9,7 @@ Landing pages: /, /about, /services, /contact, /login, /register
 
 Student Panel Route: /student/content
 
-Business Owner route: /buinessowner
+Business Owner route: /buiness/dashboard
 
 School Admin route: /schooladmin
 
